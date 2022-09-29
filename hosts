@@ -1,0 +1,9 @@
+[GCP]
+10.128.0.6  # your system ip
+
+[ansible]
+10.128.0.9 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/ansible
+
+[GCP:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=~/.ssh/ansible
